@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1610bbac-2094-4f39-9f43-40bc5ee93571" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ARRAYLISTS/Arraylist1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ARRAYLISTS/Arraylist2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../COLLEGE/ASSIGNMENTS/BS_22BCE8104.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2guS9WcwhdXwQR7GQ4rTYOS3i7M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.C_10_FirstRepeating.executor": "Run",
+    "Application.C_10_ReverseAnArray.executor": "Run",
+    "Application.C_11_ReverseAnArrayInPlace.executor": "Run",
+    "Application.C_12_RotateArrayByKSteps.executor": "Run",
+    "Application.C_13_RotateArrayInPlace.executor": "Run",
+    "Application.C_14_FrequencyArray.executor": "Run",
+    "Application.C_15_SortZeroesandOnes.executor": "Run",
+    "Application.C_16_SortZeroesAndOnesAlternate.executor": "Run",
+    "Application.C_17_SortEvenAndodd.executor": "Run",
+    "Application.C_18_SortArrayOfNumbers.executor": "Run",
+    "Application.C_19_PrefixSum.executor": "Run",
+    "Application.C_20_PrefixSumInPlace.executor": "Run",
+    "Application.C_21_SumOfValuesInRange.executor": "Run",
+    "Application.C_22_PrefixAndSuffixSum.executor": "Run",
+    "Application.C_3_FindLastOccurence.executor": "Run",
+    "Application.C_4_ArraySort.executor": "Run",
+    "Application.C_5_SmallestAndLargest.executor": "Run",
+    "Application.C_6_TargetSum.executor": "Run",
+    "Application.C_7_TargetSumTriplet.executor": "Run",
+    "Application.C_8_FindUnique.executor": "Run",
+    "Application.FindElement.executor": "Run",
+    "Application.MaxElement.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Sambhav/CODING/1.ARRAYS"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1610bbac-2094-4f39-9f43-40bc5ee93571" name="Changes" comment="" />
+      <created>1716545818525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716545818525</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/C_10_ReverseAnArray.java</url>
+          <line>5</line>
+          <properties class="C_10_ReverseAnArray" method="printarray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/C_16_SortZeroesAndOnesAlternate.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

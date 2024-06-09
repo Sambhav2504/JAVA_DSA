@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--        <bean class="cd.spring.Address" id="addrid" autowire-candidate="false">-->
+<!--           <property name = "houseno" value="111" />-->
+<!--            <property name = "city" value="indore" />-->
+<!--            <property name = "pincode" value="123456" />-->
+<!--    <bean class="cd.spring.Address" id="addrid">-->
+<!--        <constructor-arg value="122" />-->
+<!--        <constructor-arg value="Delhi" />-->
+<!--        <constructor-arg value="123456" />-->
+
+
+<!--    <property name = "houseno" value="200" />-->
+<!--    <property name = "city" value="Bangalore" />-->
+<!--    <property name = "pincode" value="163424" />-->
+    <bean class="cd.spring.Address" id="addrid1">
+        <constructor-arg value="122" />
+        <constructor-arg value="Delhi" />
+        <constructor-arg value="123456" />
+    </bean>
+
+
+    <bean class="cd.spring.Student" id="stdid1" autowire="constructor">
+        <constructor-arg value="Sambhav" index="0" />
+        <constructor-arg value="23" index="1" />
+
+    </bean>
+</beans>
+
+    <!--            <property name ="Address" ref = "address" />-->
+<!--    <bean class="cd.spring.Student" id="stdid1">-->
+<!--        <constructor-arg value="Sambhav" />-->
+<!--        <constructor-arg value="23" />-->
+<!--        <constructor-arg ref="addrid" />-->
+
+<!--//<bean class = "cd.spring.Student" id = "stdid1" autowire="byName"> the bean id should be same as the property name-->
+<!--<bean class = "cd.spring.Student" id = "stdid1" autowire="byType">THE DATA TYPE SHOULD BE SAME-->
