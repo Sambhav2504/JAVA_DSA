@@ -29,6 +29,6 @@ public class SortInDescendingOrder {
         //using inbuilt method
 //        Collections.reverse(list)
         Collections.sort(list,Collections.reverseOrder());
-        System.out.println("Sorted list in desc order is is"+list);v 
+        System.out.println("Sorted list in desc order is is"+list);
     }
 }

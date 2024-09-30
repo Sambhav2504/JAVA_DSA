@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class C_20_PrefixSumInPlace {
 
-    static int[] prefixsum(int[] arr){
+    static void prefixsum(int[] arr){
         int n = arr.length;
         for(int i = 1;i<n;i++){
             arr[i] = arr[i]+arr[i-1];
         }
-        return arr;
     }
 
     static void printarray(int[] arr){
@@ -27,7 +26,7 @@ public class C_20_PrefixSumInPlace {
             arr[i] = sc.nextInt();
         }
         System.out.println("prefix sum array");
-        int[] ans = prefixsum(arr);
+        prefixsum(arr);
         printarray(arr);
 
     }

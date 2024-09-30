@@ -1,50 +1,72 @@
 import java.util.Scanner;
 
-public class C_5_TransposeInPlace {
+public class Main {
 
-    static void printmatrix(int[][] arr) {
+    // Method to print the matrix
+    static void printMatrix(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
-
     }
 
-    static void TransposeInPlace(int[][] a,int r1,int c1){
+    // Method to multiply two matrices
+    static void multiplyMatrix(int[][] a, int r1, int c1, int[][] b, int r2, int c2) {
 
-        for(int i = 0;i<a.length;i++){
-            for(int j = i;j<a[i].length;j++){
-                int temp = a[i][j];
-                a[i][j] = a[j][i];
-                a[j][i]  = temp;
+        // Check if matrix multiplication is possible
+        if (c1 != r2) {
+            System.out.println("Matrix multiplication is not possible with the given dimensions.");
+            return;
+        }
+
+        // Resultant matrix of size r1 x c2
+        int[][] ans = new int[r1][c2];
+
+        // Matrix multiplication logic
+        for (int i = 0; i < r1; i++) {
+            for (int j = 0; j < c2; j++) {
+                for (int k = 0; k < c1; k++) {
+                    ans[i][j] += a[i][k] * b[k][j];
+                }
             }
         }
 
-        System.out.println("Transpose of matrix is");
-
-
+        System.out.println("Resultant Matrix after multiplication:");
+        printMatrix(ans);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number of rows of 1 matrix");
+
+        // Input for the first matrix
+        System.out.print("Enter the number of rows for the first matrix: ");
         int r1 = sc.nextInt();
-        System.out.println("enter the number of columns of 1 matrix");
+        System.out.print("Enter the number of columns for the first matrix: ");
         int c1 = sc.nextInt();
         int[][] a = new int[r1][c1];
-        System.out.println("enter " + r1 * c1 + " elements");
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j++) {
+        System.out.println("Enter " + r1 * c1 + " elements for the first matrix:");
+        for (int i = 0; i < r1; i++) {
+            for (int j = 0; j < c1; j++) {
                 a[i][j] = sc.nextInt();
             }
         }
-        System.out.println("original matrix is");
-        printmatrix(a);
 
-        TransposeInPlace(a,r1,c1);
-        printmatrix(a);
+        // Input for the second matrix
+        System.out.print("Enter the number of rows for the second matrix: ");
+        int r2 = sc.nextInt();
+        System.out.print("Enter the number of columns for the second matrix: ");
+        int c2 = sc.nextInt();
+        int[][] b = new int[r2][c2];
+        System.out.println("Enter " + r2 * c2 + " elements for the second matrix:");
+        for (int i = 0; i < r2; i++) {
+            for (int j = 0; j < c2; j++) {
+                b[i][j] = sc.nextInt();
+            }
+        }
 
+        // Perform matrix multiplication
+        multiplyMatrix(a, r1, c1, b, r2, c2);
     }
 }
