@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class C_5_TransposeInplace {
 
     // Method to print the matrix
     static void printMatrix(int[][] arr) {
